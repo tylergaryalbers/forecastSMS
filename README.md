@@ -6,3 +6,4 @@ I made this script in order to get a text of the weather forecast each morning a
 
 This script is written entirely in python, using the Darksky API for weather, the darkskylib API wrapper (https://pypi.org/project/darkskylib/), and the Twiliio API for sms handling. 
 
+I used crontab in linux to set up automatic runs of this script at certain times. 
