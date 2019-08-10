@@ -23,5 +23,5 @@ print(smsbody)
 # function for sending sms - uses twilio to send an sms to specified number
 def forecastSMS():
     client = Client("<Twiilio account SID", "Twilio auth token")
-    message = client.messages.create(to="<recipient number", from_="<given Twiliio phone #", body=smsbody)
+    message = client.messages.create(to="<recipient number>", from_="<given Twiliio phone #>", body=smsbody)
 forecastSMS()
