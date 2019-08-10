@@ -1,6 +1,5 @@
 from twilio.rest import Client
 from darksky import forecast
-import datetime
 
 # use darkskylib API wrapper to call forecast / weather attributes of specific coordinates, API key first, the lat/long
 weather = forecast('<darksky api key>',<latitude>, <longtitude>)
