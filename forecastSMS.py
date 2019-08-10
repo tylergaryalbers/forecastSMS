@@ -13,10 +13,9 @@ def windcompass(windbearing):
     val = int((windbearing/22.5)+.5)
     argument = ["N","NNE","NE","ENE","E","ESE", "SE", "SSE","S","SSW","SW","WSW","W","WNW","NW","NNW"]
     return argument[(val % 16)]
-
 direction = windcompass(windbearing)
 
-#message for text
+#message for sms
 smsbody = f'The wind is blowing {direction} at {windspeed} MPH. It is {temp} degrees outside and it is currently {forecast}.'
 #print statement for debugging text in console
 print(smsbody)
